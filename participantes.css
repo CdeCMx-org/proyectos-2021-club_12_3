@@ -1,0 +1,58 @@
+.link{
+  text-decoration: none;
+color: #1F42D4;
+}
+
+nav{
+  height: 15vh;
+  font-size: 120%;
+}
+
+.nav-link:hover{
+  color:white !important;
+}
+
+h2, h1{
+margin: 2%;
+}
+
+article, .contenido, p{
+  font-size: 105%;
+
+}
+.fondo{
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  border-radius: 13%;
+  margin: 2%;
+  align-items: center;
+
+  height: 35vh;
+  padding-left: 3%;
+  background-color: rgba(132,42,234,1);
+}
+
+.marco{
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+
+  height:  30vh;
+  width: 30vh;
+  margin: 2%;
+  overflow: hidden;
+}
+
+.marco>img{
+  overflow: hidden;
+}
+
+.presentacion{
+  height: 100%;
+  padding: 1%;
+  width: 80%;
+  color:white;
+  font-weight: 500;
+
+}
